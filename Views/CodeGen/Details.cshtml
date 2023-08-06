@@ -1,0 +1,116 @@
+@model neilApp.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+            <dl class="row boxz">
+                <h2>@ViewData["Title"]</h2>
+                <dt class = "fgroup col-sm-2">
+                    @Html.DisplayNameFor(model => model.Category)
+                </dt>
+                <dd class = "fgroup col-sm-10">
+                    @Html.DisplayFor(model => model.Category)
+                </dd>
+                <dt class = "fgroup col-sm-2">
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd class = "fgroup col-sm-10">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+                <dt class = "fgroup col-sm-2">
+                    @Html.DisplayNameFor(model => model.Units)
+                </dt>
+                <dd class = "fgroup col-sm-10">
+                    @Html.DisplayFor(model => model.Units)
+                </dd>
+                <dt class = "fgroup col-sm-2">
+                    @Html.DisplayNameFor(model => model.Stock)
+                </dt>
+                <dd class = "fgroup col-sm-10">
+                    @Html.DisplayFor(model => model.Stock)
+                </dd>
+                <dt class = "fgroup col-sm-2">
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+                <dd class = "fgroup col-sm-10">
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
+                <dt class = "fgroup col-sm-2">
+                    @Html.DisplayNameFor(model => model.Status)
+                </dt>
+                <dd class = "fgroup col-sm-10">
+                    @Html.DisplayFor(model => model.Status)
+                </dd>
+
+                <br><br>
+                <div class="buttonDown">
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+                    |
+                    <a class="btn btn-primary" asp-action="Index">Back to List</a>
+                </div>
+            </dl>
+        </div>
+</body>
+</html>
+
+<style>
+    *
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+    body
+    {
+        background: linear-gradient(90deg, #22c1c3, #fdbb2d);
+    }
+    
+    .boxz
+    {
+        display: flex;
+        flex-wrap : wrap;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid white;
+        border-radius : 10px;
+        max-width: 350px;
+        min-width: 150px;
+
+        align-items: center;
+        justify-content: center;
+
+        margin : auto;
+
+        background-color: #f8f8f8;
+
+        opacity: 0.9;
+    }
+
+    .fgroup
+    {
+        padding: 2px;
+        width: 300px;
+        border-radius : 10px;
+    }
+
+    h2
+    {
+        margin-top: 10px;
+    }
+
+    .buttonDown
+    {
+
+    }
+</style>

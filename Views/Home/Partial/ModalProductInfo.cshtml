@@ -1,0 +1,42 @@
+<div class="modal fade" id="modalProdInfo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Product Information</h5>
+        <button type="button" id="modalProdInfoClose" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body infoContent d-flex justify-content-center">
+        <div class="cardInfo" style="width: 18rem;">
+            <center><h4><div class="info-title" id="info-title">
+            </div></h4></center>
+            <hr/>
+            <div class="s info-Category"></div>
+            <div class="s info-Units"></div>
+            <div class="s info-Stocks"></div>
+            <div class="s info-Price"></div>
+            <div class="s info-Status"></div>
+            <hr/>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button class="card-link btn btn-success updateProdInfo" id="updateProdInfoBtn" data-bs-dismiss="modal" data-bs-toggle="tooltip" data-bs-placement="top" title="Update">
+            <i class="fa-solid fa-pen-to-square"></i>
+        </button>
+        <!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="deleteProdBtn">Confirm</button>!-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  .s
+  {
+    padding : 7px;
+  }
+</style>

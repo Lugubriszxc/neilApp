@@ -1,0 +1,112 @@
+@model neilApp.Models.Product
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<html>
+    <head>
+    </head>
+    <body>
+        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+            <hr/>
+            <div class="row">
+            <div class="col-md-4 formDiv">
+                <h2>@ViewData["Title"]</h2>
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Category" class="control-label"></label>
+                        <select asp-for="Category" asp-items="ViewBag.categories" class="form-control"></select>
+                        <span asp-validation-for="Category" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input placeholder="Input product name" asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Units" class="control-label"></label>
+                        <input placeholder="Input units" asp-for="Units" class="form-control" />
+                        <span asp-validation-for="Units" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Stock" class="control-label"></label>
+                        <input placeholder="Input stocks" asp-for="Stock" class="form-control" />
+                        <span asp-validation-for="Stock" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Price" class="control-label"></label>
+                        <input placeholder="Set a price" asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Status" class="control-label"></label> <br>
+                        <input type="checkbox" asp-for="Status" class="form-control-input" value="Active">
+                        <label class="form-check-label" form="flexCheckChecked">Active</label>
+                    </div>
+                    <div class="form-group buttonDown">
+                        <input type="submit" value="Create" class="btn btn-success" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<style>
+    *{
+        padding: 0;
+        margin : 0;
+    }
+
+    body
+    {
+        background: linear-gradient(90deg, #22c1c3, #fdbb2d);
+    }
+
+    .buttonDown
+    {
+        margin : 5px;
+    }
+
+    .formDiv
+    {
+        display: flex;
+        flex-wrap : wrap;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid white;
+        border-radius : 10px;
+        max-width: 350px;
+        min-width: 150px;
+
+        align-items: center;
+        justify-content: center;
+
+        margin : auto;
+
+        background-color: #f8f8f8;
+    }
+
+    .form-group
+    {
+        padding: 2px;
+        width: 300px;
+        border-radius : 10px;
+    }
+
+    .control-label
+    {
+        font-weight: bold;
+    }
+
+    h2
+    {
+        margin-top: 10px;
+    }
+</style>

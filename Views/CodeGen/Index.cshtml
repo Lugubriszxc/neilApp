@@ -1,0 +1,120 @@
+@model IEnumerable<neilApp.ViewModel.categoryProdView>
+
+@{
+    ViewData["Title"] = "PRODUCT LIST";
+}
+
+<center><h2>@ViewData["Title"]</h2></center>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New Product</a>
+</p>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div class="tableContainer">
+            @foreach (var item in Model) {
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <hr/>
+                    <p class="card-text">Category : @item.CategoryName</p>
+                    <p class="card-text">Units : @item.Units</p>
+                    <p class="card-text">Stock : @item.Stock</p>
+                    <p class="card-text">Price : @item.Price</p>
+                    <p class="card-text">Status : @item.Status</p>
+                    <hr/>
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a class="btn btn-primary" asp-action="AddStock" asp-route-id="@item.Id">Stock</a>
+                    <a class="btn btn-primary" asp-action="AddedStockHistory" asp-route-id="@item.Id">History</a>
+                    </div>
+            </div>
+                }           
+        </div>
+    </body>
+
+    <!--
+    <td>
+                            <a class="btn btn-success" asp-action="Edit" asp-route-id="item.Id">Edit</a> |
+                            <a class="btn btn-primary" asp-action="Details" asp-route-id="item.Id">Details</a> |
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="item.Id">Delete</a> |
+                            <a class="btn btn-primary" asp-action="AddStock" asp-route-id="item.Id">Add Stock/s</a> |
+                            <a class="btn btn-primary" asp-action="AddedStockHistory" asp-route-id="item.Id">View History</a>
+    </td> !-->
+</html>
+
+<style>
+    /*
+    .table th
+    {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #FBBF77;
+        color: white;
+    }
+
+    .table
+    {
+        border-radius : 30px 30px 30px 30px;
+        overflow: hidden;
+        border-collapse: collapse;
+
+        text-align: center;
+        width: 100%;
+    }
+
+    .table td, .table th
+    {
+        border: 1px solid #ddd;
+        padding : 8px;
+    }
+
+    .table tr:nth-child(even){background-color: #f8f8f8;}
+    .table tr:hover {background-color: #ddd;}
+
+    .table tr
+    {
+        background-color: #f8f8f8;
+    }
+    */
+    *
+    {
+        padding: 0;
+        margin : 0;
+    }
+
+    .card
+    {
+        display: inline-block;
+        flex-wrap: wrap;
+        max-width: 0;
+        min-width: 250px;
+
+        padding: 10px;
+        margin: 10px;
+
+        transition: transform 0.2s ease;
+    }
+
+    .card:hover 
+    {
+        transform: scale(1.1);
+    }
+
+    a
+    {
+        width: 40%;
+        margin: 5px;
+    }
+
+    body
+    {
+        background: linear-gradient(90deg, #22c1c3, #fdbb2d);
+    }
+</style>

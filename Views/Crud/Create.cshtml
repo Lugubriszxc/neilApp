@@ -1,0 +1,110 @@
+@model neilApp.Models.Category
+@{
+    ViewData["Title"] = "Create a Category";
+}
+
+<html>
+    <head>
+    </head>
+    <body>
+            <div class="butIndex">
+                @Html.ActionLink("LIST OF CATEGORY", "Index", "Crud")
+            </div>
+            <div class="formDiv">
+                <!--<p>&#8592; Html.ActionLink("LIST OF CATEGORY", "Index", "Crud")</p>-->
+                <p><h2>@ViewData["Title"]</h2></p>
+            <form method="post">
+                <div class="nameDiv">
+                    <br>
+                    <label class="nameDiv inputNameLabel" asp-for="Name">Category name</label>
+                    <p><input placeholder="Input category name" class="nameDiv inputName" required asp-for="Name" /></p>
+                </div>
+                <div class="submitDiv">
+                    <button class="submitDiv subBut" type="submit">Submit</button>
+                </div>
+            </form>
+            </div>
+    </body>
+</html>
+
+<style>
+    *{
+        padding: 0;
+        margin : 0;
+    }
+
+    .formDiv
+    {
+        display: flex;
+        flex-wrap : wrap;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid white;
+        border-radius : 10px;
+        max-width: 350px;
+        min-width: 150px;
+
+        align-items: center;
+        justify-content: center;
+
+        margin : auto;
+
+        background-color: #f8f8f8;
+    }
+
+    body
+    {
+        background: linear-gradient(90deg, #22c1c3, #fdbb2d);
+    }
+
+    .nameDiv
+    {
+        padding: 2px;
+        width: 300px;
+        border-radius : 10px;
+    }
+
+    .inputNameLabel
+    {
+        font-weight: bold;
+    }
+
+    h2
+    {
+        margin-top: 10px;
+    }
+
+    .submitDiv
+    {
+        padding: 2px;
+        border-radius : 10px;
+        width: 180px;
+
+        background-color: #00ab66;
+        border: none;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .submitDiv:hover
+    {
+        background-color: #00d680
+    }
+
+    .butIndex a
+    {
+        padding: 7px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+        border: 2px solid black;
+        color: white;
+    }
+
+    .butIndex a:hover
+    {
+        color: black;
+    }
+</style>

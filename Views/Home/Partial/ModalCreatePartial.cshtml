@@ -1,0 +1,86 @@
+<template id="categoryOptionTemplate">
+  <option value=""></option>
+</template>
+<!-- Modal -->
+<div class="modal fade" id="modalCreate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Product</h5>
+        <button type="button" id="addProdClose" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body createContent">
+        <form id="addProdForm">
+            <div class="form-group">
+                <label name="" class="control-label">Category</label>
+                <select id="catSelect" name="Category" class="form-select"></select>
+            </div>
+            <div class="form-group">
+                <label name="" class="control-label">Name</label>
+                <input name="Name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="" class="control-label">Units</label>
+                <input name="Units" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label name="" class="control-label">Stocks</label>
+                <input type="number" name="Stock" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="" class="control-label">Price</label>
+                <input name="Price" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="Status" class="control-label">Status</label>
+                <br>
+                <input name="Status" class="form-check-input stat" type="checkbox" value="Active" id="flexCheckChecked"/>
+                <label class="form-check-label" for="flexCheckChecked">Active</label>
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>!-->
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="saveProdBtn" ><i class="fa-solid fa-floppy-disk fa-2xl" title="Save Changes"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  *
+  {
+    padding: 0;
+    margin : 0;
+  }
+
+  .modal-header
+  {
+    background: #3c3c3c;
+  }
+
+  .modal-title
+  {
+    color: #f8f8f8;
+  }
+
+  .modal-footer
+  {
+    background: #3c3c3c;
+  }
+  
+  .form-group
+  {
+    padding : 5px;
+  }
+
+  .control-label
+  {
+    font-weight: bold;
+  }
+
+  .btn-close
+  {
+    
+  }
+</style>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+</head>
+<body>
+    <form id="indexForm">
+            <template id="card-container">
+            <div class="card" style="width: 18rem;">
+            <center><h4><div class="card-title">
+            </div></h4></center>
+            <hr/>
+            <div class="card-body">
+            </div>
+            <hr/>
+
+            <a class="card-link btn btn-success updateProd" data-bs-toggle="tooltip" data-bs-placement="top" title="Update">
+                <i class="fa-solid fa-pen-to-square"></i>
+            </a>
+            <a class="btn btn-warning infoProd" title="Product Information">
+                <i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>
+            </a>
+
+            <a class="btn btn-success addStock" title="Add Stocks">
+               <i class="fa-solid fa-boxes-stacked " style="color: #ffffff;"></i>
+            </a>
+            
+            <a class="btn btn-primary stockHistory" title="View added stock history">
+                <i class="fa-solid fa-clipboard"></i>
+            </a>
+
+            <a class="btn btn-danger deleteProd" title="Delete">
+                <i class="fa-solid fa-trash"></i>
+            </a>
+
+            <center>
+                <a class="btn btn-primary addCart" title="Add to Cart">
+                <i class="fa-solid fa-cart-plus"></i>
+                </a>
+            </center>
+
+        </div>
+    </template>
+    <div class="parent">
+
+    </div>
+    </form>
+</body>
+</html>
+
+<style>
+    *
+    {
+        padding: 0;
+        margin : 0;
+    }
+
+    .card
+    {
+        display: inline-block;
+        flex-wrap: wrap;
+        max-width: 0;
+        min-width: 250px;
+
+        padding: 10px;
+        margin: 10px;
+
+        transition: transform 0.2s ease;
+    }
+
+    .card:hover 
+    {
+        transform: scale(1.1);
+    }
+
+/*
+    a
+    {
+        width: 40%;
+        margin: 5px;
+    }
+    */
+
+    body
+    {
+        background: linear-gradient(90deg, #22c1c3, #fdbb2d);
+    }
+</style>

@@ -1,0 +1,142 @@
+@model List<neilApp.Models.Category>
+<!--List<int> primeNumbers = new List<int>();-->
+
+@{
+    ViewData["Title"] = "CATEGORY LIST";
+}
+
+<center>
+    <h2>@ViewData["Title"]</h2>
+</center>
+
+<div class="butCreate">
+    @Html.ActionLink("CREATE CATEGORY", "Create", "Crud")
+</div>
+
+<body>
+    <head>
+
+    </head>
+    <body>
+        <div class="tableContainer">
+            <table class="categoryList" style="border-radius : 10px";>
+                <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Actions</th>
+                </tr>
+    
+            @foreach (var item in Model)
+            {
+                <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>
+                <a class="but butUpdate" asp-action="update" asp-route-id="@item.Id">UPDATE</a>
+                |
+                <a class="but butDelete" asp-action="delete" asp-route-id="@item.Id">DELETE</a>
+                </td>
+                </tr>
+            }
+            </table>
+        </div>
+    </body>
+</body>
+
+
+<style>
+    .categoryList th
+    {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #FBBF77;
+        color: white;
+    }
+
+    .categoryList 
+    {
+        border-radius : 30px 30px 30px 30px;
+        overflow: hidden;
+        border-collapse: collapse;
+
+        text-align: center;
+        width: 100%;
+    }
+
+    .categoryList td, .categoryList th
+    {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .categoryList tr:nth-child(even){background-color: #f8f8f8;}
+    .categoryList tr:hover {background-color: #ddd;}
+
+    .categoryList tr
+    {
+        background-color: #f8f8f8;
+    }
+
+    body
+    {
+        background: linear-gradient(90deg, #22c1c3, #fdbb2d);
+    }
+
+    *
+    {
+        padding: 0;
+        margin : 0;
+    }
+
+    .butUpdate
+    {
+        width: 100px;
+        border-radius : 10px;
+        background: #04AA6D;
+
+        color: white;
+    }
+
+    .butUpdate:hover
+    {
+        background-color: #00d680
+    }
+
+    .butDelete
+    {
+        width: 100px;
+        border-radius : 10px;
+        background: #f32013;
+        color : white;
+    }
+
+    .butDelete:hover
+    {
+        background: #FF4433
+    }
+
+    .but
+    {
+        padding: 7px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .butCreate a
+    {
+        padding: 7px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+        border: 2px solid black;
+        color: white;
+    }
+
+    .butCreate a:hover
+    {
+        color: black;
+    }
+</style>

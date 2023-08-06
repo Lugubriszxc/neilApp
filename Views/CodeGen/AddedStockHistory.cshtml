@@ -1,0 +1,60 @@
+@model IEnumerable<neilApp.Models.Stockhistory>
+
+@{
+    ViewData["Title"] = "ADDED STOCK HISTORY";
+}
+
+<html>
+    <head>
+        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+        <center><h4>@ViewData["Title"]</h4></center>
+    </head>
+    <body>
+        <center>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <div class="card-title">
+                    <h5>@ViewBag.nameProd.Name</h5>
+                    <br>
+                    <b><dd>Current Stock : @ViewBag.nameProd.Stock</dd></b>
+                </div>
+                <hr/>
+                <dd>@ViewBag.sList</dd>
+                <div class="card-text">
+                 @foreach (var item in Model)
+                    {
+                        if(@item.AddedStock > 1)
+                        {
+                            <p> Added <b>@item.AddedStock stocks</b> on <b>@item.Date</b></p>
+                        }
+                        else
+                        {
+                            <p> Added <b>@item.AddedStock stock</b> on <b>@item.Date</b></p>
+                        }
+                        <hr/>
+                    }
+                </div>
+            </div>
+        </div>
+        </center>
+    </body>
+</html>
+
+<style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    body
+    {
+        background: linear-gradient(90deg, #22c1c3, #fdbb2d);
+    }
+
+    .card
+    {
+        max-width: 0;
+        min-width: 400px;
+    }
+</style>

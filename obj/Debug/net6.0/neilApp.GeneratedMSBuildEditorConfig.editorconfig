@@ -1,0 +1,140 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = neilApp
+build_property.RootNamespace = neilApp
+build_property.ProjectDir = c:\Users\Neil Chris\Documents\Ursal, Neil\prod crud proj no design\May 18 java jquery\Ursal, Neil\FINALS DONE\FINALS DONE\DONE\neilApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Neil Chris\Documents\Ursal, Neil\prod crud proj no design\May 18 java jquery\Ursal, Neil\FINALS DONE\FINALS DONE\DONE\neilApp
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/CodeGen/AddedStockHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlblxBZGRlZFN0b2NrSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/CodeGen/AddStock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlblxBZGRTdG9jay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/CodeGen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/CodeGen/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/CodeGen/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/CodeGen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/CodeGen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Crud/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Crud/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Crud/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Crud/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3J1ZFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/IndexPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXEluZGV4UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalAddCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsQWRkQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalCartList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsQ2FydExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalCreatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsQ3JlYXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalProductInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsUHJvZHVjdEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalReceipt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsUmVjZWlwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsUmVjb3Jkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalRecordsDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsUmVjb3Jkc0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalStock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsU3RvY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalStockHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsU3RvY2tIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Partial/ModalUpdatePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsXE1vZGFsVXBkYXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/NewApi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3QXBpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Neil Chris/Documents/Ursal\, Neil/prod crud proj no design/May 18 java jquery/Ursal\, Neil/FINALS DONE/FINALS DONE/DONE/neilApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gbckgiw2bg
